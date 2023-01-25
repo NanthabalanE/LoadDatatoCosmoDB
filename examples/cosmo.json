@@ -1,0 +1,71 @@
+{
+  items: [
+    {
+      repeat: "10",
+      items: [
+        {
+          name: "id",
+          type: "id"
+        },
+        {
+          name: "name",
+          type: "fullName"
+        },
+        {
+          name: "age",
+          type: "integer",
+          min: "1",
+          max: "80"
+        },
+        {
+          "name": "gender",
+          "values": "male, female"
+        },
+        {
+          "name": "contact",
+          "type": "phone"
+        },
+        {
+          "name": "accounttype",
+          "type": "Array",
+          "repeat": "2,3",
+          "values": "personal, office, family, temp"
+        },
+        {
+          "name": "isRegister",
+          "type": "Boolean"
+        },
+        {
+          "name": "Update",
+          "type": "null"
+        },
+        {
+          "name": "created",
+          "type": "date",
+          "min": "1990-01-01",
+          "max": "2022-12-31"
+        },
+        {
+          "name": "CivilScore",
+          "type": "float",
+          "min": "2",
+          "max": "900"
+        },
+        {
+          "name": "address",
+          "repeat": "1,2",
+          "items": [
+            {
+              "name": "Address",
+              "values": "Home, Office"
+            },
+            {
+              "name": "Street",
+              "type": "address"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

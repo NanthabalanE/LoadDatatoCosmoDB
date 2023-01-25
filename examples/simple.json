@@ -1,0 +1,18 @@
+{
+	items: [
+		{
+			name: "User",
+			repeat: "300",
+			items: [
+				{
+					name: "_id",
+					type: "id"
+				},
+				{
+					name: "name",
+					type: "fullName"
+				}
+			]
+		}
+	]
+}
