@@ -27,7 +27,7 @@ public class SourceFactory {
 		super();
 		cache = new HashMap<>();
 		random = new Random(new Date().getTime());
-		dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.Z'Z'");
 	}
 	
 	public Source<?> getSource(Node node) {
